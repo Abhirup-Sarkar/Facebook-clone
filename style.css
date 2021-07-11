@@ -10,3 +10,15 @@
     height:fit-content;
     
 }
+.hero-heading{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+.hero-text{
+    text-align: center;
+    font-size: 25px;
+    margin: 0rem 8rem 3rem 8rem;
+
+}
