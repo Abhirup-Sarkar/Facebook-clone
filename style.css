@@ -3,13 +3,14 @@
 }
 :root{
     --primary-color: #1877f2;
+    --seconday-color:#04d558;
 }
 .login-block{
     border: 1px solid black;
     width: 396px;
     height: 456px;
     border-radius: 5px;
-    margin: auto;
+    margin: 1rem 1rem 1rem 50rem;
 }
 .email-phone{
     width: fit-content;
@@ -19,7 +20,8 @@
 .hero-heading{
     text-align: center;
     font-size: 60px;
-    font-weight: bold;
+    font-weight: 600px;
+    color: var(--primary-color);
 
 }
 .hero-text{
@@ -57,4 +59,25 @@
 .login-text{
     color:white;
     font-weight: 1000px;
+}
+.forgotten-password{
+    text-align: center;
+    color:var(--primary-color);
+}
+hr{
+    margin: 1rem 1rem 2rem 1rem;
+}
+.account-create{
+    width:200px;
+    height: 40px;
+    margin: 2rem;
+    border: 1px solid var(--seconday-color);
+    border-radius: 5px;
+    background-color: var(--seconday-color);
+    
+
+
+}
+.below-login{
+    text-align:center;
 }
