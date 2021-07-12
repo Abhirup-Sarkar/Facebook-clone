@@ -1,2 +1,3 @@
 # Facebook-clone
- Creating a mockup of the facebook desktop website .
+
+ ### Created a mockup of the facebook homepage using only HTML and CSS.
