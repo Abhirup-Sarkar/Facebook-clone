@@ -30,12 +30,12 @@ body{
 
 .login-block{
     background-color:white;
-    border: 1px solid var(--body-color);
+    
     width: 396px;
     height: 456px;
     border-radius: 10px;
     margin: 0rem 1rem 1rem 50rem;
-    box-shadow: 0 0 0 20px var(--body-color);
+    box-shadow: 0 0 0 20pt 10pt darkgray;
 }
 .email-phone{
     
