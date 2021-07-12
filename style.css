@@ -1,34 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
 *{
-    margin: 0;
+    margin: 0rem;
 }
 :root{
     --primary-color: #1877f2;
-    --seconday-color:#04d558;
+    --seconday-color:#70A842;
+    --body-color:#E9EBEE;
+
 }
+body{
+    background-color:var(--body-color);
+    font-family: 'Roboto', sans-serif;
+}
+/* .hero-heading{
+    width: 301px;
+    height: 106px;
+    margin: 15rem 5rem 1rem 5rem
+} */
+/* .hero-text{
+    text-align: left;
+    font-size: 25px;
+    margin:auto;
+
+} */
+
 .login-block{
-    border: 1px solid black;
+    background-color:white;
+    border: 1px solid var(--body-color);
     width: 396px;
     height: 456px;
-    border-radius: 5px;
-    margin: 1rem 1rem 1rem 50rem;
-}
-.email-phone{
-    width: fit-content;
-    height:fit-content;
-    
-}
-.hero-heading{
-    text-align: center;
-    font-size: 60px;
-    font-weight: 600px;
-    color: var(--primary-color);
-
-}
-.hero-text{
-    text-align: center;
-    font-size: 25px;
-    margin: 0rem 8rem 3rem 8rem;
-
+    border-radius: 10px;
+    margin: 0rem 1rem 1rem 50rem;
+    box-shadow: 0 0 0 20px var(--body-color);
 }
 .email-phone{
     
@@ -36,25 +43,39 @@
     text-align: left;
     width: 364px;
     height: 56px;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     border-radius: 5px;
+    font-size: medium;
+    
+    
+    
+    
 }
 .password{
     margin: 1rem;
     text-align: left;
     width: 364px;
     height: 56px;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     border-radius: 5px;
+    font-size: medium;
 
 }
-.login{
+
+
+
+
+
+
+.login-button{
     width: 364px;
     height:48px;
     margin: 1rem;
     border: 1px solid var(--primary-color);
     border-radius:5px;
     background-color: var(--primary-color);
+    font-size: larger;
+    font-weight: bolder;
 }
 .login-text{
     color:white;
@@ -63,6 +84,7 @@
 .forgotten-password{
     text-align: center;
     color:var(--primary-color);
+    font-size: medium;
 }
 hr{
     margin: 1rem 1rem 2rem 1rem;
@@ -70,14 +92,22 @@ hr{
 .account-create{
     width:200px;
     height: 40px;
-    margin: 2rem;
+    margin: 1rem 2rem 1rem 7rem;
     border: 1px solid var(--seconday-color);
     border-radius: 5px;
     background-color: var(--seconday-color);
-    
+    text-align: center;
+    font-size: medium;
+    color:white;
+    font-weight: bolder;
 
 
 }
 .below-login{
-    text-align:center;
+    
+    margin: 1rem 1rem 1rem 53rem;
+    font-size: 15px;
+}
+.page-create{
+    font-weight: bold;
 }
