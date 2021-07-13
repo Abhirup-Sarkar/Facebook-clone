@@ -10,6 +10,7 @@
     --primary-color: #1877f2;
     --seconday-color:#37AC28;
     --body-color:#E9EBEE;
+    --dark-gray: #898F9C;
 
 }
 body{
@@ -122,4 +123,19 @@ hr{
 }
 .page-create{
     font-weight: bold;
+}
+.languages{
+    margin-top:15rem;
+    margin-left: 8rem;
+}
+.language__list{
+    display: inline-block;
+    text-align: left;
+    padding: 0.5rem;
+    font-size: smaller;
+    color:var(--dark-gray) ;
+    
+    
+    
+    
 }
