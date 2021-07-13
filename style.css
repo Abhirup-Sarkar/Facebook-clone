@@ -18,19 +18,14 @@ body{
     background-color:var(--body-color);
     font-family: 'Roboto', sans-serif;
 }
+/* header */
 .hero{
     float:left;
 }
 .hero__image{
     width: 300px;
-    height: 106px;
-    
-    margin: 6rem 1rem 0rem 10rem;
-    
-    
-    
-    
-
+    height: 106px;    
+    margin: 6rem 1rem 0rem 10rem;  
 }
 .hero__text{
     
@@ -152,6 +147,21 @@ hr{
     
 }
 .language__line{
-    margin: .5rem 8.5rem 2rem 8.5rem;
+    margin: .5rem 8.5rem 1rem 8.5rem;
 
+}
+
+.list{
+    display: inline-block;
+    text-align: left;
+    padding-right: 1rem;
+    font-size: small;
+    color:var(--dark-gray);
+    
+}
+.link__list{
+    margin-left: 8.5rem;
+    margin-top: 0rem;
+    margin-right: 5rem;
+    
 }
